@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+
+        <title>Responsive website food</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header about" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">RESTA</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.php" class="nav__link active-link">Back To Home</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu about'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="about-page" id="about">
+                <div class="about__container__page">
+                    <div class="about__content">
+                        
+                        <h2 class="about__title">Based in Casablanca.</h2>
+                        <span class="about__subtitle">Founded in 2018 by #Jhon Doe</span>
+                    </div>
+                </div>
+            </section>
+              
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About us</span>
+                        <h2 class="section-title about__initial">YOU DON'T NEED A SILVER FORK <br>TO EAT GOOD FOOD.</h2>
+                        <p class="about__description">We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.</p>
+                    </div>
+
+                    <img src="assets/img/salad2.png" alt="" class="about__img">
+                </div>
+            </section>
+
+           
+            <!--========== MENU ==========-->
+            <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">Our Chief</span>
+
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img src="assets/img/chef1.png" alt="" class="menu__img">
+                        <h3 class="menu__name">#Barbara Chinu</h3>
+                        <span class="menu__detail">Food Maker</span>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/chef2.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">#Christopher Myers</h3>
+                        <span class="menu__detail">Drink Maker</span>
+                    </div>
+                    
+                    <div class="menu__content">
+                        <img src="assets/img/chef3.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">#Rene Redzepi</h3>
+                        <span class="menu__detail">Dessert Maker</span>
+                    </div>
+                </div>
+            </section>
+             <!--========== STORY ==========-->
+
+             <div class="story__section">
+                <h1>Our Small Story</h1>
+                <p>
+                    Phasellus porttitor consequat tortor, vitae aliquam mi eleifend in. In hac habitasse platea dictumst. Fusce quis orci arcu. Vestibulum in lectus et felis facilisis imperdiet. Ut condimentum sapien a ipsum consequat, nec rhoncus metus ultrices. Vestibulum lobortis ipsum ut lacus placerat fringilla. Suspendisse consectetur tellus turpis, quis accumsan nisl efficitur id.
+                </p>
+                <p>
+                    Etiam tincidunt eget enim vitae sodales. Suspendisse fringilla placerat erat ut pretium. Suspendisse ac dignissim purus. Nullam lobortis odio nec est iaculis, pharetra consectetur ligula imperdiet. Curabitur vel lacus augue. Proin at blandit massa, quis varius ex. In ullamcorper elit eu aliquet ultricies. Nullam eget interdum ligula. Nulla facilisi.
+                </p> 
+                <p>
+                    Cras sed sem orci. Sed ac dictum elit, at sagittis risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mattis magna id libero auctor congue. Phasellus id velit volutpat massa porttitor dapibus eu id diam. Etiam non laoreet libero. Nam scelerisque nisi a mi dictum, sed sollicitudin felis blandit. Fusce suscipit posuere metus. Maecenas interdum nisi ac pretium finibus. Vestibulum semper ex dolor, at elementum ipsum luctus et. Ut convallis finibus ipsum, id sodales eros elementum porta. Maecenas condimentum felis neque, sed lacinia leo porta a. Nunc hendrerit mattis tortor, eget ultricies mi rhoncus a. Ut malesuada nec erat a ornare. Phasellus in consequat arcu, in porttitor purus. Aenean in massa nulla.
+                </p>
+                <p> 
+                    Vestibulum arcu augue, finibus quis tristique quis, rutrum eget nisi. Vivamus sed neque auctor, malesuada arcu eu, elementum justo. Mauris eros tellus, condimentum at facilisis sed, ornare quis elit. Curabitur eget feugiat lectus, in tristique arcu. Ut luctus sapien risus. In efficitur facilisis sollicitudin. Maecenas interdum placerat nibh eget suscipit. Donec et erat libero. Morbi condimentum, velit id bibendum rutrum, mi mauris bibendum mi, sed aliquet eros lectus nec massa. Proin sit amet mauris eu felis tristique pulvinar. Curabitur dignissim lacus ac scelerisque vehicula. Quisque vitae lobortis nisi. Ut in libero nunc. Integer molestie tristique ornare.
+                </p>
+                <p>    
+                    Morbi tempor lobortis maximus. Morbi faucibus tincidunt nulla a ultricies. Nunc eleifend quam ac ex gravida, vitae porttitor erat sodales. Pellentesque sodales justo a nisi iaculis mollis. Mauris malesuada dignissim tortor, eget accumsan arcu rutrum in. Proin ac mattis quam. Cras id tristique elit. Sed id fermentum ipsum, a pretium felis. Cras sodales nisi eget eros viverra, vitae facilisis urna scelerisque. Proin in elit eu enim tempus posuere in nec metus. Curabitur nec dolor nunc. Integer feugiat nunc ut lacus finibus, ut lobortis velit finibus. Donec lacus massa, ullamcorper a elit ut, mattis vestibulum magna. Nulla eget accumsan justo.
+                </p>
+            </div>
+            <!-- ================ map section ================== -->
+            <div class="map">
+                <p><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.632171639135!2d-7.615262149995139!3d33.58889838063997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d3558dbcadd1%3A0xf8669c8577ff42b1!2sRestaurant!5e0!3m2!1sfr!2sma!4v1622742061898!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+            </div>
+        </main>
+        <!--========== FOOTER ==========-->
+        
+        <?php include("includes/footer.php"); ?>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+        
+    </body>
+</html>
