@@ -5,4 +5,5 @@ the web site has the functionality to :
 - make order food
 - login 
 - register
+# resta-static
 but this version is just a static version 
