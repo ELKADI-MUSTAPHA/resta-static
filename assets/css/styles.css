@@ -648,12 +648,17 @@ header{
   box-shadow: 0 4px 8px rgba(0,0,0,0.75), 0 15px 10px rgba(0,0,0,0.22);
 }
 
+.services__content.one{
+  left: 1rem;
+  top: 1rem;
+}
 .services__content.two{
-  right: 0;
+  right: 1rem;
   top: 32%;
 }
 .services__content.three{
-  bottom: 0;
+  bottom: 1rem;
+  left: 1rem;
 }
 .black-bgd{
   width: 100%;
