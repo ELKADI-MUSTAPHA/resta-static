@@ -430,7 +430,7 @@ header{
 }
 .home__container{
   height: auto !important;
-  background-image: url('../img/home2.png');
+  background-image: url('../img/home2.webp');
   background-position: center;
   background-size: cover;
   /* height: calc(100vh - var(--header-height)); */
@@ -791,7 +791,7 @@ header{
 }
 
 .about-page{
-  background-image: url('../img/bgd-about.jpg');
+  background-image: url('../img/bgd-about.webp');
   background-position: center;
   background-size: cover;
   height: 100vh;
